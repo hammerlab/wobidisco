@@ -28,10 +28,9 @@ Individual projects have detailed documentation websites at
 
 The following tutorials are available here:
 
-- [Running](./doc/running-local.md) Epidisco
-  (or any Biokepi workflow) using Ketrew/Coclobas in
-  [local-docker](./doc/running-local.md) mode (i.e. using Coclobas to schedule
-  docker containers on a single machine).
+- [Running](./doc/running-local) Epidisco (or any Biokepi workflow) using
+  Ketrew/Coclobas in *local-docker* mode (i.e. using Coclobas to schedule docker
+  containers on a single machine).
   
 
 
