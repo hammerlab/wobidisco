@@ -92,7 +92,7 @@ Let's configure the client-side for Ketrew (fill your host like above):
 
 Let's just run a quick test of the configuration:
 
-    ketrew submit --dae /tmp/,"du -sh /epidisco-shared" --wet-run
+    ketrew submit --dae /tmp/,"du -sh /biokepi" --wet-run
 
 The job should be visible on the Ketrew WebUI (you can also use the “TextUI” by
 simply typing `ketrew interact` and following the 80's-styled menus).
