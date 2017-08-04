@@ -99,7 +99,7 @@ simply typing `ketrew interact` and following the 80's-styled menus).
 
 We just need to get the “epidisco runner:”
 
-    curl -O https://raw.githubusercontent.com/hammerlab/epidisco/f84c94ae85545abd6b5ab01675760a5905f464b3/tools/epirunner.sh
+    curl -O https://raw.githubusercontent.com/hammerlab/epidisco/master/tools/epirunner.sh
 
 And check that it works:
 
