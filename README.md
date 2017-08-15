@@ -1,8 +1,6 @@
 Wobidisco
 =========
 
-Workflows Bioinformatics and Discoballs: The Biokepiverse.
-
 This is the umbrella documentation/tooling project for:
 
 - [Biokepi](https://github.com/hammerlab/biokepi): a library of composable
@@ -34,6 +32,11 @@ The following tutorials are available here:
 - [Creating](./doc/debug-workflow-node.md) a “debug” workflow node to
   experiment/troubleshoot commands within the same environment as the one of the
   workflow (Secotrec-based).
-  
+- [Generating](./doc/biokepi-input-scripts.md)
+  JSON input descriptions for Biokepi workflows which use the
+  `Biokepi_pipeline_edsl.Pipeline_library.Input` modules (Epidisco is one of
+  them).
+
+
 
 
