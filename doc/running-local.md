@@ -95,7 +95,7 @@ Let's just run a quick test of the configuration:
     ketrew submit --dae /tmp/,"du -sh /biokepi" --wet-run
 
 The job should be visible on the Ketrew WebUI (you can also use the “TextUI” by
-simply typing `ketrew interact` and following the 80's-styled menus).
+simply typing `coclobas-ketrew interact` and following the 80's-styled menus).
 
 We just need to get the “epidisco runner:”
 

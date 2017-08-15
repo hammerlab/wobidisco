@@ -31,6 +31,9 @@ The following tutorials are available here:
 - [Running](./doc/running-local.md) Epidisco (or any Biokepi workflow) using
   Ketrew/Coclobas in *local-docker* mode (i.e. using Coclobas to schedule docker
   containers on a single machine).
+- [Creating](./doc/debug-workflow-node.md) a “debug” workflow node to
+  experiment/troubleshoot commands within the same environment as the one of the
+  workflow (Secotrec-based).
   
 
 
