@@ -59,17 +59,5 @@ ocamlfind list | grep cohttp
 echo "Setting Warn-Error for the Travis test"
 export OCAMLPARAM="warn-error=A,_"
 
-# We try the example
-cat > my_cluster.ml <<EOCAML
-module My_cluster = struct
-  let max_processors = 42
-  let work_dir = "/work/dir/"
-  let results_dir = "/results/dir/"
-  let datasets_home = "/datasets/"
-  let machine =
-    Biokepi.Setup.Build_machine.create "ssh://example.com/tmp/KT/"
-end
-EOCAML
-ls -la my_cluster.ml
-cat my_cluster.ml
-
+echo "Test All the EXamples"
+sh tools/check-examples.sh
