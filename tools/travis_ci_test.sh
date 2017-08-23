@@ -56,8 +56,5 @@ ocamlfind list | grep lwt
 echo 'ocamlfind list | grep cohttp'
 ocamlfind list | grep cohttp
 
-echo "Setting Warn-Error for the Travis test"
-export OCAMLPARAM="warn-error=A,_"
-
 echo "Test All the EXamples"
 sh tools/check-examples.sh
