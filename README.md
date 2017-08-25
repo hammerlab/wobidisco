@@ -38,5 +38,21 @@ The following tutorials are available here:
   them).
 
 
+Testing The Examples
+--------------------
+
+We use `tools/check-examples.sh` (with the tool `tools/code-of-markdown/`) to
+run the examples in the Markdown files
+(incl. with [TravisCI](https://travis-ci.org/hammerlab/wobidisco)).
+You can run it by simply:
+
+    sh ./tools/check-examples.sh
+
+if you are debugging, you may want to speed-up the script by not
+checking/installing the dependencies every time.
+
+    without_deps=true sh tools/check-examples.sh
+
+
 
 
