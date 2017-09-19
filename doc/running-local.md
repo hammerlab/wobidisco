@@ -23,7 +23,7 @@ deploy the infrastructure needed to run Epidisco. We need to download the
 application:
 
     mkdir ~/bin/
-    wget -O ~/bin/secotrec-local https://www.dropbox.com/s/dji0uhj0m6v91hg/secotrec-local-Linux-x86_64?raw=1
+    wget -O ~/bin/secotrec-local https://www.dropbox.com/s/qwf9272txvmue5n/secotrec-local-amd64-bin?raw=1
     chmod +x ~/bin/secotrec-local
     export PATH=~/bin:$PATH
 
@@ -50,11 +50,17 @@ file and source it, or just paste them in your shell:
     # We want to get recent version of most tools:
     export coclobas_docker_image=hammerlab/keredofi:coclobas-aws-biokepi-dev
 
+Docker can be pretty annoying with access rights, so let's be on the safe side:
+
+    umask 000
+    export secotrec_tmp=/tmp/fresh-tmp-dir
+
 You check that the configuration is taken into account:
 
     secotrec-local print-conf
 
-Then you can launch the setup:
+Then you bring all the services up in one command (workflow manager, scheduler,
+database, etc):
 
     secotrec-local up
 
