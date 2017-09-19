@@ -135,7 +135,7 @@ bash epirunner.sh /epidisco-shared/biokepi_machine.ml \
           --normal $normal \
           --tumor  $tumor \
           --reference-build b37decoy \
-          --results-path /nfsaa/results \
+          --results-path /biokepi/results \
           --mhc-alleles $mhc_alleles \
           $experiment
 ```
